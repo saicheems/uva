@@ -1,4 +1,4 @@
-/**
+/*
  * Sai Cheemalapati
  * UVA 1237: Expert enough?
  *

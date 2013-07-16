@@ -1,5 +1,7 @@
 UVA 1237
 Expert enough?
+
+Process
 This problem was very straightforward. Make arrays for the name, lower bounds,
 and upper bounds, and perform a linear scan to see if the price matches any
 makers. If it matches more than one or none, print undetermined, and otherwise
