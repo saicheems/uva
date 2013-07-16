@@ -1,0 +1,58 @@
+UVA 927
+Integer sequences from addition of terms
+
+Process
+This one gave me a lot of problems. The concept itself was difficult to understand at first. A sequence a_n consists of groups of size d * n. For example, 1 2 2 3 3 3 4 4 4 4... where d = 1 or 1 1 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 4 4... where d = 2. Given this sequence, we're given a polynomial function and asked to find the value outputted from this function whose input we calculate given an index k and d for the sequence a_n. Therefore, we must pregenerate the a_n sequence and calculate the value of the group the index belongs to. I preprocessed a few thousand values in the sequence a_n where d = 1. The values where d = 2, 3... can be calculated by the formula k / d. I used (k - 1) / d because I shifted to zero index. The most painful part was that I glanced over the bit that said, output is "less or equal than 2^63 - 1". This is a long long value and must be incorporated in your evaluation function and print statement, or you will certainly get WA.
+
+Input
+12
+4 3 0 0 0 23
+25
+100
+1 0 1
+1
+6
+3 0 1 5 7
+7
+43
+3 0 1 5 7
+7
+1
+3 0 1 5 7
+7
+16
+3 0 1 5 7
+7
+42
+3 0 1 5 7
+7
+7
+3 0 1 5 7
+7
+1000000
+5 1 1 1 1 1 1
+1
+1000000
+20 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+100000
+1000000
+1 1 1
+2
+1000000
+20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1
+21
+
+Output
+1866
+3
+532
+13
+78
+237
+13
+1073344285
+5656584705361395
+1466015503701
+1001
+3656158440062976
