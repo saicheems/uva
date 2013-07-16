@@ -2,7 +2,14 @@ UVA 12192
 Grapevine
 
 Process
-This problem was relatively straightforward due to the constraints. The issues I had were mostly with getting the problem to run within the time limit. My approach was to use the lower_bound function to find the first value on each line >= L. From there I checked each increasing diagonal index with value > U and incremented the cur_max counter. At this point I had a pretty good process but was still getting TLE. The fix was to start the loop going through the diagonal values at the cur_max. Obviously it makes no sense to check smaller boxes after a bigger box has already been found.
+This problem was relatively straightforward due to the constraints. The issues I
+had were mostly with getting the problem to run within the time limit. My
+approach was to use the lower_bound function to find the first value on each
+line >= L. From there I checked each increasing diagonal index with value > U
+and incremented the cur_max counter. At this point I had a pretty good process
+but was still getting TLE. The fix was to start the loop going through the
+diagonal values at the cur_max. Obviously it makes no sense to check smaller
+boxes after a bigger box has already been found.
 
 Input
 4 5 

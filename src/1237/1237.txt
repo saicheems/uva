@@ -1,0 +1,25 @@
+UVA 1237
+Expert enough?
+This problem was very straightforward. Make arrays for the name, lower bounds,
+and upper bounds, and perform a linear scan to see if the price matches any
+makers. If it matches more than one or none, print undetermined, and otherwise
+print the maker with the index you recorded.
+
+Input
+1 
+4 
+HONDA 10000 45000 
+PEUGEOT 12000 44000 
+BMW 30000 75900 
+CHEVROLET 7000 37000 
+4 
+60000 
+7500 
+5000 
+10000
+
+Output
+BMW 
+CHEVROLET 
+UNDETERMINED 
+UNDETERMINED
