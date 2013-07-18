@@ -1,0 +1,25 @@
+UVA 105
+The skyline problem
+
+Process
+It took me a while to figure out how to solve this one. My method was to make an
+array containing heights. As a scanned each new building, I went from index L to
+R in my array and set the value at the index = H if H > the value in that index.
+This makes sense as the tallest buildings will always be visible in the skyline.
+The next step was just to read back this array and make note of a change in
+height. If height changes, print both the index (the x change) and the height
+(the y change). If we iterate to 1 past the maximum right value, the trailing 0
+is added.
+
+Input
+1 11 5
+2 6 7
+3 13 9
+12 7 16
+14 3 25
+19 18 22
+23 13 29
+24 4 28
+
+Output
+1 11 3 13 9 0 12 7 16 3 19 18 22 3 23 13 29 0
