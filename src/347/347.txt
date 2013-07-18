@@ -1,0 +1,46 @@
+UVA 347
+Run, run, runaround numbers
+
+Process
+This problem requires solutions to be simulated and preprocessed to run within
+the time limit. Besides that, it's relatively straightforward. Methods need to
+be written to check whether or not a number is valid (no 0's, no duplicate
+digits) and whether all digits are accessed and the end digit is the start digit
+when performing the run around.
+
+Input
+12
+123
+1234
+81111
+82222
+83333
+911111
+7654321
+21
+321
+4321
+54321
+654321
+111111
+222222
+81362
+0
+
+Output
+Case 1: 13
+Case 2: 147
+Case 3: 1263
+Case 4: 81236
+Case 5: 83491
+Case 6: 83491
+Case 7: 913425
+Case 8: 8124956
+Case 9: 31
+Case 10: 417
+Case 11: 5263
+Case 12: 61274
+Case 13: 734259
+Case 14: 134259
+Case 15: 235914
+Case 16: 81362
