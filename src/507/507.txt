@@ -1,0 +1,81 @@
+UVA 507
+Jill rides again
+
+Process
+I originally used an O(n^2) algorithm for this problem, but I got TLE. So I
+backtracked and used a much simpler O(n) dynamic programming algorithm.
+Basically, scan through the stops and increment a sum. Store the sum as a max
+when it is greater than the current max. If the sum ever drops below 0, reset it
+as 0 and set the start point at that index. If the max is not greater than 0 at
+any point, Jill will never ride the bus.
+
+Input
+8
+3
+  -1
+   6
+10
+   4
+  -5
+   4
+  -3
+   4
+   4
+  -4
+   4
+  -5
+4
+  -2
+  -3
+  -4
+10
+  -1
+   2
+   3
+   4
+ -20
+   2
+   3
+   4
+  -1
+10
+  -1
+   2
+   3
+   4
+ -20
+   1
+   3
+   4
+   1
+6
+  -3
+  -4
+   1
+  -6
+  -7
+5
+  -1
+  -2
+  -3
+  -4
+10
+  -1
+  -2
+   3
+   4
+   5
+ -30
+  -1
+  12  
+  -3
+
+Output
+The nicest part of route 1 is between stops 2 and 3
+The nicest part of route 2 is between stops 3 and 9
+Route 3 has no nice parts
+The nicest part of route 4 is between stops 2 and 5
+The nicest part of route 5 is between stops 6 and 10
+The nicest part of route 6 is between stops 3 and 4
+Route 7 has no nice parts
+The nicest part of route 8 is between stops 3 and 6
