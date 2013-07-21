@@ -2,7 +2,13 @@ UVA 103
 Stacking boxes
 
 Process
-This problem was a pain in the butt to get AC. The first step is to read in the boxes, sort them (to determine if they fit within one another) and produce a graph. My algorithm of choice was Bellman-Ford (requires negative edge weights to determine longest path), so I went ahead and made an edge list. Since SSSP algorithms start from a single source, I created a source node that attached to each block given. From there it was just a matter of running the algorithm, storing the longest path, and printing it back out.
+This problem was a pain in the butt to get AC. The first step is to read in the
+boxes, sort them (to determine if they fit within one another) and produce a
+graph. My algorithm of choice was Bellman-Ford (requires negative edge weights
+to determine longest path), so I went ahead and made an edge list. Since SSSP
+algorithms start from a single source, I created a source node that attached to
+each block given. From there it was just a matter of running the algorithm,
+storing the longest path, and printing it back out.
 
 Input
 5 2
