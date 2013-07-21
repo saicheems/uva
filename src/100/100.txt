@@ -1,0 +1,17 @@
+UVA 100
+The 3n + 1 problem
+
+Process
+Very simple evaluation problem. Just follow the directions.
+
+Input
+1 10
+100 200
+201 210
+900 1000
+
+Output
+1 10 20
+100 200 125
+201 210 89
+900 1000 174
