@@ -1,0 +1,15 @@
+UVA 102
+Ecological bin packing
+
+Process
+This problem is simple to solve through brute force (as there are only 3
+categories). Just simulate each possibility and return the store the one with
+the minimum number of bottle movements.
+
+Input
+1 2 3 4 5 6 7 8 9
+5 10 5 20 10 5 10 20 10
+
+Output
+BCG 30
+CBG 50
