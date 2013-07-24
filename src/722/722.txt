@@ -1,0 +1,64 @@
+UVA 722
+Lakes
+
+Process
+This problem is simple flood fill. Input is a little tricky - I used strcpy to
+take in the graph. Just start on the cell given in the problem description and
+sum the number of connected water tiles in the four possible directions.
+
+Input
+7
+        
+02 01
+1001101
+0011111
+0001001
+1100011
+1111111
+1100110
+1110111
+
+02 01
+1001101
+0011111
+0001001
+1100011
+1111111
+1100110
+1110111
+
+01 01
+0
+
+01 01
+1
+
+05 05
+0
+
+01 01
+00000000
+00000000
+00000000
+
+05 05
+0001100
+0001100
+0001100
+0001100
+0001000
+
+Output
+12
+
+12
+
+1
+
+0
+
+0
+
+24
+
+11
