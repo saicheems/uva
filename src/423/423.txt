@@ -1,0 +1,20 @@
+UVA 423
+MPI maelstrom
+
+Process
+This one breaks down into a shortest paths problem. We're given an adjacency
+matrix describing the communication costs between several connected processors.
+Our goal is to find the maximum of the minimum amount of times required to send
+a message between processor 1 and all other processors. Thus we can use floyd
+warshall and output the maximum value in the first column of the weight matrix
+as the answer.
+
+Input
+5
+50
+30 5
+100 20 50
+10 x x 10
+
+Output
+35
