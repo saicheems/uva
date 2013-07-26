@@ -1,0 +1,17 @@
+UVA 821
+Page hopping
+
+Process
+This problem is a shortest paths one. Store the maximum node value as "N", and
+compile an adjacency matrix with the input. Run floyd warshall to calculate all
+pairs shortest paths - then iterate through the weight matrix, keep a running
+total and number of non-inf path weights, and output the average.
+
+Input
+1 2 2 4 1 3 3 1 4 3 0 0
+1 2 1 4 4 2 2 7 7 1 0 0
+0 0
+
+Output
+Case 1: average length between pages = 1.833 clicks
+Case 2: average length between pages = 1.750 clicks
