@@ -1,0 +1,84 @@
+UVA 10525
+New to Bangladesh?
+
+Process
+This problem is a small variant on all pairs shortest paths. The premise is to
+caluclate the shortest possible time between two points and then the shortest
+distance. Therefore, we use floyd warshall to calculate the shortest time first.
+To get the shorest path given shorest time, maintain distance in a separate cost
+matrix and update it when two equivalent times are found and the distance weight
+for those nodes is less than the current (time[i][j] == time[i][k] + time[k][j]
+&& dist[i][j] > dist[i][k] + dist[k][j]). Also, you must account for multiple
+roads between the same two places - store with priority the lowest time and
+then lowest distance.
+
+Input
+3
+
+3 2
+1 2 2 5
+2 3 3 6
+2
+1 3
+1 3
+
+4 2
+1 2 5 2
+2 3 6 3
+1
+1 4
+
+5 5
+1 2 2 3
+1 2 2 4
+2 3 5 1
+2 3 3 6
+4 5 6 7
+20
+1 2
+1 3
+1 4
+1 5
+2 1
+2 3
+2 4
+2 5
+3 1
+3 2
+3 4
+3 5
+4 1
+4 2
+4 3
+4 5
+5 1
+5 2
+5 3
+5 4
+
+Output
+Distance and time to reach destination is 11 & 5.
+Distance and time to reach destination is 11 & 5.
+
+No Path.
+
+Distance and time to reach destination is 3 & 2.
+Distance and time to reach destination is 9 & 5.
+No Path.
+No Path.
+Distance and time to reach destination is 3 & 2.
+Distance and time to reach destination is 6 & 3.
+No Path.
+No Path.
+Distance and time to reach destination is 9 & 5.
+Distance and time to reach destination is 6 & 3.
+No Path.
+No Path.
+No Path.
+No Path.
+No Path.
+Distance and time to reach destination is 7 & 6.
+No Path.
+No Path.
+No Path.
+Distance and time to reach destination is 7 & 6.
