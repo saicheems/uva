@@ -1,5 +1,7 @@
 *
 
+!src
+!src/*
 !*.cpp
 !*.java
 !*.txt
