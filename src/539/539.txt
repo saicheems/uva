@@ -1,0 +1,39 @@
+UVA 539:
+The settlers of Catan
+
+Process
+This problem can be solved by multiple depth first searches (since there can be
+disconnected sets). The trick is to keep track of visited edges instead of
+nodes, and mark each edge unvisited after making the recursive call. This is to
+make sure we traverse all possible directional paths.
+
+Input
+3 2
+0 1
+1 2
+15 16
+0 2
+1 2
+2 3
+3 4
+3 5
+4 6
+5 7
+6 8
+7 8
+7 9
+8 10
+9 11
+10 12
+11 12
+10 13
+12 14
+3 2
+0 1
+0 2  
+0 0
+
+Output
+2
+12
+2
