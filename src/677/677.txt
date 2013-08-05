@@ -1,0 +1,46 @@
+UVA 677
+All walks of length "n" from the first node
+
+Process
+I solved this problem using modified dfs. To make sure we don't print paths
+like (0, 1, 0), mark each node you're traversing as visited before the
+recursive call, and afterwards mark it as unvisited again. That way we can get
+all unique paths from each node. Besides that, you need to keep track of the
+number of paths found. If none are found, you need to print the 'no walk of
+length n' found message. Make sure you print the actual number (3 for example,
+not n).
+
+Input
+5 2
+0 1 0 1 0
+1 0 1 0 0
+0 1 0 1 1
+1 0 1 0 1
+0 0 1 1 0
+-9999
+5 3
+0 1 0 1 0
+1 0 1 0 0
+0 1 0 1 1
+1 0 1 0 1
+0 0 1 1 0
+-9999
+5 3
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+Output
+(1,2,3)
+(1,4,3)
+(1,4,5)
+
+(1,2,3,4)
+(1,2,3,5)
+(1,4,3,2)
+(1,4,3,5)
+(1,4,5,3)
+
+no walk of length 3
