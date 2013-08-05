@@ -1,0 +1,62 @@
+UVA 729
+The Hamming distance problem
+
+Process
+I chose to solve this problem with a slower but more compact solution. It
+should be easy to see that all the problem is asking is to print all
+combinations of binary numbers of length N and H number of 1's. As a result, if
+we make a string filled with 0's and H 1's right justified,  we can use the
+next_permutation function to generate all valid combinations in the proper
+order.
+
+Input
+6
+
+4 2
+
+4 1
+
+4 3
+
+4 4
+
+5 1
+
+5 2
+
+Output
+0011
+0101
+0110
+1001
+1010
+1100
+
+0001
+0010
+0100
+1000
+
+0111
+1011
+1101
+1110
+
+1111
+
+00001
+00010
+00100
+01000
+10000
+
+00011
+00101
+00110
+01001
+01010
+01100
+10001
+10010
+10100
+11000
