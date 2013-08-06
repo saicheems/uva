@@ -1,0 +1,39 @@
+UVA 10452
+Marcus
+
+Process
+This problem can be solved using a simple dfs. Due to the restrictions provided
+(traverse across letters IEHOVA# in exactly that order) and the guarantee that
+a correct path will always exist, it is trivial to code.
+
+Input
+3
+6 5
+PST#T
+BTJAS
+TYCVM
+YEHOF
+XIBKU
+N@RJB
+5 4
+JA#X
+JVBN
+XOHD
+DQEM
+T@IY
+10 10
+BBBBBBBBBB
+BBBBBBBBBB
+BBBBBBBBBB
+BBB#BBBBBB
+BBVABBBBBB
+BBOHEBBBBB
+BBB@IBBBBB
+BBBBBBBBBB
+BBBBBBBBBB
+BBBBBBBBBB
+
+Output
+forth forth right right forth forth forth
+right forth forth left forth forth right
+right forth left left forth right forth
