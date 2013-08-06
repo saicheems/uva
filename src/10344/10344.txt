@@ -1,0 +1,21 @@
+UVA 10344
+23 out of 5
+
+Process
+This problem gave me some troubles, as I don't think the problem description is
+very clear. Make sure you test all permutations of the 5-tuples. I used
+next_permutation in conjunction with a recursive search to find whether an
+arrangement that yielded 23 existed. Make sure you sort the tuple array before
+running through the permutations - the values are not guaranteed to be
+presented in lexicographical order.
+
+Input
+1 1 1 1 1
+1 2 3 4 5
+2 3 5 7 11
+0 0 0 0 0
+
+Output
+Impossible
+Possible
+Possible
