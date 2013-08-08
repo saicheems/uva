@@ -1,0 +1,50 @@
+UVA 222
+Budget travel
+
+Process
+I solved this problem using recursive backtracing. I kept track of distance
+traveled and station number and returned the minimum cost value. If you follow
+the rules to the dot you'll be fine. I started with 0 distance and at station 0
+and checked each station above that met the conditions. Make sure you code for
+the case where you fill at a station when less than half a tank is used because
+stations ahead are unreachable, and also make sure you add the 2 dollars to
+your recursive call at each stop (add 200 if you're using cents). Don't correct
+for rounding until the final print statement - use %.2f to print a double to 2
+decimal places. I chose to use doubles in the code for thoroughness sake, I
+don't know if floats will return AC but I figured better safe than sorry.
+
+Input
+475.6
+11.9 27.4 14.98 6
+102.0 99.9
+220.0 132.9
+256.3 147.9
+275.0 102.9
+277.6 112.9
+381.8 100.9
+516.3
+15.7 22.1 20.87 3
+125.4 125.9
+297.9 112.9
+345.2 99.9
+120
+20 1 10 10
+6 100
+26 500
+30 1000
+50 1500
+60 3000
+70 100
+80 500
+80 300
+90 10000
+100 100
+-1
+
+Output
+Data Set #1
+minimum cost = $27.31
+Data Set #2
+minimum cost = $38.09
+Data Set #3
+minimum cost = $540.00
