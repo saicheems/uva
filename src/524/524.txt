@@ -1,0 +1,50 @@
+UVA 524
+Prime ring problem
+
+Process
+This problem can be solved easily using recursive backtracing. Make a process
+for checking whether a number is prime (I chose a less efficient method that
+just checks all values under the square root to see if they divide evenly).
+Have a recursive method that keeps track of the current digit, and check values
+2 to n to see if you can place them in the array given that the previous number
+and the new value sum to a prime number. You will need to keep track of the
+digits you used as well as the array you're building. Finally, your base case
+should check for your place in the array and whether the last value + 1 is
+prime (wraparound).
+
+Input
+1
+2
+3
+4
+5
+6
+7
+8
+
+Output
+Case 1:
+1
+
+Case 2:
+1 2
+
+Case 3:
+
+Case 4:
+1 2 3 4
+1 4 3 2
+
+Case 5:
+
+Case 6:
+1 4 3 2 5 6
+1 6 5 2 3 4
+
+Case 7:
+
+Case 8:
+1 2 3 8 5 6 7 4
+1 2 5 8 3 4 7 6
+1 4 7 6 5 8 3 2
+1 6 7 4 3 8 5 2
