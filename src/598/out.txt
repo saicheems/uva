@@ -1,0 +1,79 @@
+Size 2
+Times, Herald-Tribune
+Times, Post
+Times, New Advocate
+Herald-Tribune, Post
+Herald-Tribune, New Advocate
+Post, New Advocate
+
+Size 3
+Times, Herald-Tribune, Post
+Times, Herald-Tribune, New Advocate
+Times, Post, New Advocate
+Herald-Tribune, Post, New Advocate
+
+
+Size 1
+Hello
+I
+hope
+this
+works
+
+Size 2
+Hello, I
+Hello, hope
+Hello, this
+Hello, works
+I, hope
+I, this
+I, works
+hope, this
+hope, works
+this, works
+
+Size 3
+Hello, I, hope
+Hello, I, this
+Hello, I, works
+Hello, hope, this
+Hello, hope, works
+Hello, this, works
+I, hope, this
+I, hope, works
+I, this, works
+hope, this, works
+
+Size 4
+Hello, I, hope, this
+Hello, I, hope, works
+Hello, I, this, works
+Hello, hope, this, works
+I, hope, this, works
+
+Size 5
+Hello, I, hope, this, works
+
+
+Size 3
+A, B, C
+A, B, D
+A, B, E
+A, B, F
+A, C, D
+A, C, E
+A, C, F
+A, D, E
+A, D, F
+A, E, F
+B, C, D
+B, C, E
+B, C, F
+B, D, E
+B, D, F
+B, E, F
+C, D, E
+C, D, F
+C, E, F
+D, E, F
+
