@@ -1,0 +1,9 @@
+UVA 775
+Hamiltonian cycle
+
+Process
+I solved this problem using dfs. I started at node 0 and searched until I found
+a path of length n where the final node in the path has an edge to 0. The dfs
+method may need some tweaking to get TLE - otherwise the hardest part of this
+problem is reading input. I chose to use strcmp and sscanf to grab the edge
+values and stop at %.
