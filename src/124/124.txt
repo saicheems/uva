@@ -1,0 +1,9 @@
+UVA 124
+Following orders
+
+Process
+I solved this problem using recursive backtracing. I kept track of previously
+visited letters, and checked to see if any of the node connections had already
+been visited. If not, I continued recursing. Make sure you sort the list of
+letters you get at the beginning if you use my method. That way you get the
+correctly ordered answer every time.
