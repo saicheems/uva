@@ -1,0 +1,10 @@
+UVA 872
+Ordering
+
+Process
+I solved this problem using recursive backtracing. I used a vector to hold the
+elements, a vector of vectors to hold the adjacency list, and a map to keep
+track of visited nodes. I used a modified dfs method that recursed on each
+element if it didn't break the rules (being that an element which much appear
+afterwards wasn't already used). I wrote a method to check whether a rule was
+broken by checking already visited elements.
