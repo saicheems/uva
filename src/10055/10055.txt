@@ -1,0 +1,5 @@
+UVA 10055
+Hashmat the brave warrior
+
+Process
+This problem is a lesson in reading directions carefully... Despite being the easiest sounding problem in the entire uva library (the premise is to just subtract one number from the other), I still got WA 3 times before getting it right. The trick is that the input numbers can be 'vice versa', so we need to print the larger number - the smaller number, not just b - a. Be wary of the input too, you will need to use a long long to store integers of that size.
