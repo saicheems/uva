@@ -1,0 +1,5 @@
+UVA 10071
+Back to high school physics
+
+Process
+This is an extremely simple problem. Just read values a and b, and output 2 * a * b.
