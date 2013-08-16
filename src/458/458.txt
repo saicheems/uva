@@ -1,0 +1,8 @@
+UVA 458
+The decoder
+
+Process
+This problem can be solved with a simple string manipulation. I chose to read
+in each line as a string, and I iterated over each character of the string and
+printed the corresponding character shifted by '1' - '*' (first characters in
+sample input and output respectively).
