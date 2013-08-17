@@ -1,0 +1,12 @@
+UVA 10035
+Primary arithmetic
+
+Process
+This problem was a PAIN to get AC. The premise is to count the number of carry
+operations done when using the grade school addition algorithm. I chose to turn
+each number into a c string. Trick #1: The input can be up to 9 digits, use a
+long long to be sure you can handle the max value. Trick #2: You'll have to
+read the strings from right to left to conduct the addition properly - so you
+may have to keep track of indices on the two numbers separately for
+convenience. Trick #3: When only 1 carry operation is used, you must print "1
+carry operation.", instead of "1 carry operationS."

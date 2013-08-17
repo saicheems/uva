@@ -1,0 +1,13 @@
+UVA 10038
+Jolly jumpers
+
+Process
+This problem is another example of a case where an ambiguous problem statement
+makes things difficult. The premise is to determine whether or not the absolute
+differences between the values of the array contain the values 1 through n - 1.
+The bit that is unclear in the problem description is that the differences need
+not be sorted. In the example array, 1 4 2 3, the differences are 3, 2, 1. The
+array 1 4 3 1 with differences 3 1 2 would also be valid despite the fact that
+the sequence is not ordered - it is only important that values 1 to n - 1 are
+present. Note that the sequence must start from 1, meaning that differences 3 2
+1 will be valid, while 4 3 2 will not.
