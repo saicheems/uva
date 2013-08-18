@@ -1,0 +1,13 @@
+UVA 10141
+Request for proposal
+
+Process
+Solve this one by following the directions. Keep running bests of compliance
+and cost. If a higher compliance is found, or an equal compliance with lower
+cost, store that proposal. I chose to use cin for simplicity, so if you go the
+same route make sure you use getline to read in the requirements and the name
+of the proposal as well, as they can be multiple words. Note that the
+requirements need not be stored. All you need to know is the number of
+requirements and the number of met requirements for each proposal. The actual
+strings listed are fluff and should be read and ignored, since we are given
+that all met requirements are in the requirement list and none are duplicated.

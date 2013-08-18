@@ -1,0 +1,8 @@
+UVA 11559
+Event planning
+
+Process
+Keep a variable that you update when you find a lower cost than the previously
+observed best. Just check that a given hotel has enough rooms to accommodate
+the guests, and store the number of people * cost of hotel is the best cost
+observed so far.

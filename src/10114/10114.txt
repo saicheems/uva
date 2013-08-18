@@ -1,0 +1,10 @@
+UVA 10114
+Loansome car buyer
+
+Process
+Simulate the process described and you should be good. Note that the monthly
+payment is the loan amount / duration, and that it starts on the first month.
+Depending on how you code you solution, you may need to check for a case where
+0 months is the output (when the initial depreciation of the car is greater
+than the loan amount). Also, note that the output for 1 is not plural - "1
+month" v "4 months."

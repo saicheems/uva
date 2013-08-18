@@ -1,0 +1,5 @@
+UVA 11799
+Horror dash
+
+Process
+Just output the largest number in the list of creatures.

@@ -1,0 +1,9 @@
+UVA 11498
+Division of Nlogonia
+
+Process
+This problem is very straightforward. The premise is to output what new
+section of Nlogonia a pair of coordinates is in. We're given the
+intersection point of the division lines, so we print divisa if a person is
+on the line, and one of NE, SE, SO, or NO depending on what side of the
+division point each person is on.

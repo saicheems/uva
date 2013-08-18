@@ -1,0 +1,5 @@
+UVA 11727
+Cost cutting
+
+Process
+Sort and print out the second value.
