@@ -1,0 +1,13 @@
+UVA 11947
+Cancer or Scorpio
+
+Process
+Good god, this problem is a pain in the butt to code and get AC. First off,
+you'll probably want to use java so you can use the Calendar class. Read in and
+parse the starting date and add 40 weeks to that. From there, instantiate your
+zodiac month calendars and set their dates according to the table given and the
+year of the input date + 40 weeks. I used a big if tree to test whether or not
+a date fell within a zodiac sign, and printed the name if so. Note that the
+output is in MM/DD/YYYY format, meaning that you'll have to print leading 0's.
+If you went the same route as me, also note that the test for Capricorn should
+be equal to or after December 23 OR before January 20, not AND.

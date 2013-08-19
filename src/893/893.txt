@@ -1,0 +1,11 @@
+UVA 893
+Y3K problem
+
+Process
+Use Java for this problem, since you'll have a much easier time with the
+pre-existing and well done Calendar class than anything in C++. Use
+calendar.set(year, month, day); to set the initial date and
+calendar.add(Calendar.DAY_OF_YEAR, forward); to add forward days. Then just
+print the day, month, and year fields of the calendar. Note that in Calendar,
+only the month value is 0-based, so 0 corresponds with January, so 1/1/2013 is
+calendar.set(2013, 0, 1);

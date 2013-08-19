@@ -1,0 +1,7 @@
+UVA 579
+ClockHands
+
+Process
+Calculate the angle of the hour and minute hands (30 * H + (M / 60) * 30 and 6
+* M respectively) and print the absolute value of their difference. Print 360 -
+the difference if it is greater than 180.

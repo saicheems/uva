@@ -1,0 +1,10 @@
+UVA 11507
+Bender B. Rodríguez problem
+
+Process
+Keep track of the direction of the last segment of the wire, it is the only
+section that matters. I chose to use a map of maps to store the bend directions
+to avoid a confusing if tree. I figured out by hand what directions the wire
+would point if a bend was made in a certain direction. Then it was as simple as
+setting the wire to the new direction indicated by my map. Also, you'll have to
+use a long to store L.
