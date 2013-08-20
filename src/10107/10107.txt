@@ -1,0 +1,11 @@
+UVA 10107
+What is the median?
+
+Process
+I chose to solve this problem by maintaining a vector and sorting after each
+new entry is added. I printed the average between the middle 2 values if the
+number of entries is even, and the middle value if not. I wrote a second
+solution afterwards with a more efficient solution in mind. Since we're given
+one value at a time, we can do an insertion sort instead of a full sort for a
+bit of extra speed by checking for the first value greater than the scanned
+value and swapping the two.

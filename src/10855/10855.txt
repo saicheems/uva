@@ -1,0 +1,8 @@
+UVA 10855
+Rotated square
+
+Process
+Scan in the squares and do some index manipulation to record the small square
+in the three different rotations specified. Then write a method that goes
+through each index of the big square (except the last n - 1 indices) and checks
+if any of the small squares are within.

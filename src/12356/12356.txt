@@ -1,0 +1,11 @@
+UVA 12356
+Army buddies
+
+Process
+So the first time I solved this I used an O(N^2) (I think) solution, and got
+TLE. On closer inspection I should've realized it considering the size of the
+input (10^5). On the second run, I had something more clever thanks to the
+conditions of the problem. Soldiers that already died are not included in the L
+and R values, so we can maintain two arrays LS and RS that hold the index of
+the next surviving soldier to the left of and right of index i respectively.
+After each death listing, we update this indices.
