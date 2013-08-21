@@ -1,0 +1,9 @@
+UVA 11581
+Grid successors
+
+Process
+I had some difficulty at first understanding what this problem was asking. It
+wants you to apply a function f to a grid g which sets each cell equal to the
+sum modulo 2 of the cells above, below, left and right to it. It's apparent
+then that a cell can only take the value 1 or 0. We need to apply this function
+recursively until a graph where all cells are '0' presents.
