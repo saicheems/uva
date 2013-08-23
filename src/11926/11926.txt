@@ -1,0 +1,10 @@
+UVA 11926
+Multitasking
+
+Process
+I was certain at first that there had to be a solution better than O(N). Turns
+out though that the brute force approach works just fine. Maintain a boolean
+array and for each start and end time, set all values in the array >= start and
+< end as true. For repeated events, set all values between start * n and end *
+n as true where n >= 1 and start < 1000000. If a value is already true, then
+there is a conflict.

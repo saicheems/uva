@@ -1,0 +1,14 @@
+UVA 10264
+The most potent corner
+
+Process
+This problem is asking you to find the two connected corners on an
+n-dimensional cube such that the sum of the weights of all corners connected to
+the two is the maximum for that cube. O(N^2) isn't going to cut it, so you
+can't loop through all the corners twice and find which ones are connected.
+Instead, use bit manipulation to flip each bit of a corner (since they are read
+in in natural order) to determine what it's connected to. For example, corner 0
+(000) is connected to corner 1 (001), corner 2 (010) and corner 4 (100). Record
+the sums for each corner, and loop through once more to find the two adjacent
+corners with maximum sum. The formula for flipping the nth bit of k is n ^ (1
+<< k).
