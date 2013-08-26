@@ -1,0 +1,13 @@
+UVA 732
+Anagrams by stack
+
+Process
+This problem requires you to print the stack operations to build an anagram of
+a word. The basic approach should be a dfs searching through all possibilities
+of push and pop with slight modification for efficiency. A plain dfs will get
+TLE, so we need some optimization. First off, if two words do not match in
+length there can be no valid arrangement. Second, we can limit the search by
+stopping when the output so far does not match the output word requested. While
+the problem highly suggested the use of a stack, I chose to use a string so
+passing arguments in dfs was slightly easier. It follows the same principles
+regardless.
