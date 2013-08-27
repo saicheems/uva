@@ -1,0 +1,9 @@
+UVA 108
+Maximum sum
+
+Process
+I solved this problem by using the 2d range sum dynamic programming technique.
+I recalculated each index of the matrix to be the sum of the sub matrix from
+0,0 to that index, and then reconstructed all possible sub matrices in an
+O(N^4) process. This is good enough to get AC, as the brute force approach is
+O(N^6), which is too large.
