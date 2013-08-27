@@ -1,0 +1,16 @@
+UVA 1062
+Containers
+
+Process
+This problem can be solved through the use of a vector of stacks. The premise
+is that a stack of containers must be separated into S stacks such that the top
+crate on at least one of the stacks can be loaded on the current ship. The
+ships load in alphabetical order, so we can stack with respect to the alphabet.
+Start with one stack and add the first letter. From then on, check each stack
+to see if the current letter can be added. If the current letter is less than
+or equal to the one on top of a stack, add it to that stack. Otherwise, check
+the next one. If none of the letters on top of any stacks can support the
+current container, add a new stack to the vector and increment your count. This
+greedy solution will be accepted.  Note that you should be reading the
+containers in from left to right. For the sample ACMICPC, the stacks produced
+are A; CCC; IM; P.
