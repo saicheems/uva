@@ -1,0 +1,9 @@
+UVA 10827
+Maximum sum on a torus
+
+Process
+I did this problem using the maximum 2d range sum algorithm. The trick to this
+one is that it's a torus, so the way I went about it was to mirror the matrix
+four times to emulate the wrapping. The algorithm is O(N^4), and it solves the
+problem in just under a second. I believe there's an O(N^3) solution however,
+so I'll have to come back to it.
