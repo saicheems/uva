@@ -1,0 +1,19 @@
+UVA 11951
+Area
+
+Process
+This was a difficult problem. Not so much because the premise was complicated,
+but because the O(N^4) algorithm I would normally use for max 2D range sum gave
+me TLE for this problem. I wasn't able to get it to solve under a second, so I
+found a O(N^3) algorithm that does maximum range sum. It is a modification of
+Kadane's algorithm where each element is stored as the sum of the elements in
+the columns above it. As a result, row 4 for example is equivalent to rows 1 +
+2 + 3 + 4. We can calculate the range from row i to row j as A[j] - A[i - 1]
+(if i > 0). For the range rows 2 to 4, this is (1 + 2 + 3 + 4) - (1) = (2 + 3 +
+4). With this, we use a modification on Kadane's algorithm for 1D range sum.
+Initialize integers start, cost, and area as 0. Iterate on k from 0 to N and
+add each element in the column sum you calculated to a running sum (cost). Have
+a while loop that acts while cost > K. While cost is greater than K, subtract
+the value of the element of the column sum at index start, and increment start.
+Afterwards, make your comparisons on the conditions in the problem and store
+best area and cost. This should give you the best answer in quick time.
