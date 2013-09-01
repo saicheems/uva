@@ -1,0 +1,14 @@
+UVA 11456
+Trainsorting
+
+Process
+It takes some thinking to apply this problem to the longest increasing
+subsequence problem. You can use the O(N^2) dynamic programming solution twice
+to calculate the lengths of the longest increasing and decreasing subsequences
+starting from any integer. The longest train car sequence is equal to the
+maximum of (La[i] + Lb[i] - 1), where La and Lb are the lengths of the longest
+increasing and decreasing subsequenes starting from index i respectively. The
+reason this works is that starting at an integer i, all integers in the longest
+increasing subsequence above i can be added to the end of the train array. All
+integers below, in the longest decreasing subsequence, can be added to the
+beginning.

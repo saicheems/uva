@@ -1,0 +1,15 @@
+UVA 481
+What goes up
+
+Process
+I originally tried to solve this problem using the O(N^2) DP algorithm, but I
+exceeded the time limit. I went back and read up on an O(Nlog(N)) solution and
+applied that instead. It was a bit tricky to understand, but my implementation
+is below. It becomes clearer if you work it through with pen and paper. The
+important points to realize are that the M array stores the last value in the
+subsequence of length i. The M_id array stores the indexes of those values, and
+the P array stores the index in A of the element prior to it in the
+subsequence. The collective of these points is a pretty beautiful solution to
+the problem. If we save the index of the value first stored in the last column
+of M, we're given the last value in the longest increasing subsequence. From
+there, we recurse on the P array to find all values previous.
