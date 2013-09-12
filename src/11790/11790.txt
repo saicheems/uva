@@ -1,0 +1,13 @@
+UVA 11790
+Murcia's skyline
+
+Process
+This problem can be solved using the O(N^2) longest increasing subsequence
+dynamic programming technique. In this case however, we're not necessarily
+interested in the longest chain of increasing buildings but longest sum of
+widths of an arbitrary chain of buildings. That means that if a single building
+has a longer width than the sum of those of a chain of 5 buildings, we pick the
+single building. Thus a simple modification to the standard algorithm can be
+used - just store the maximum observed width at each index where the building
+at index i is taller (or shorter for the decreasing part of the problem) than
+the building at index j.

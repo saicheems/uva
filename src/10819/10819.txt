@@ -1,0 +1,16 @@
+UVA 10819
+Trouble of 13-dots
+
+Process
+This problem is a twist on the knapsack problem that we can solve using dynamic
+programming and recursive backtracing. The subproblem here is the favor gained
+by adding a value at a certain weight. We store this in a dp table for each
+recursive step. The twist in this problem is to account for the extra $200
+13-dots is allowed to spend if she goes over $2000 in a month. Note that if her
+budget is $1900, she cannot spend $1950, as her refund does not happen until
+she spends more than $2000. Thus, we can prune out any steps where 13-dots'
+budget is less than $1800. We can also prune out any results where the weight
+is greater than the budget + 200. In our base case where i == n, we also need
+to check to see whether or not the weight so far is greater than the budget but
+less than $2000. Keep track of the best values and recurse starting at position
+0 and weight 0.
