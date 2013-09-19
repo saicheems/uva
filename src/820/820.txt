@@ -1,0 +1,11 @@
+UVA 820
+Internet bandwidth
+
+Process
+I solved this problem using a code snippet from "Competitive Programming 3." It
+is a max flow problem and thus you should use the Edmonds Karp algorithm. I
+don't understand it very well, so I'll be revisiting this one at some point -
+the code is very dense and not immediately obvious. Note that for this problem
+that when populating your residual matrix, edges go both ways in this graph,
+and multiple edges from node a to node b can be given. In this case, sum the
+weights to get a total weight in any direction.
