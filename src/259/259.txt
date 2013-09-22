@@ -1,0 +1,20 @@
+UVA 259
+Software allocation
+
+Process
+This problem can be solved using max flow with a pretty ingenious mapping. Here
+we have a total possible 26 applications and 10 computers in total. We want to
+match all of the users who bring in an application to a computer that can run
+it. Only 1 computer can run an application, so we have lots of constraints that
+resemble max flow. Consider this, we have a universal source that connects to
+all 26 applications (A through Z). Each edge from source to application has the
+weight of the number of users that brought in that application. For example, if
+4 people brought in application A, the weight from the universal source to A is
+4. Then, we connect each of the applications to the computers it can run on
+with infinite edge weights. Finally, we connect each of the ten computers to a
+universal sink with edge weight 1, representing the 1 application limit for
+each computer. To check if there is a possible allocation, we see if the max
+flow is equal to the number of applications brought in. If they are equal, we
+can find the computers that were allocated by checking the weight of the edge
+from the computer to each of the applications. If the edge weight is 1, that
+means that application is run on that computer.
