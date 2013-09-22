@@ -1,6 +1,6 @@
 /*
  * Sai Cheemalapati
- * UVA 10819: Trouble of 3-dots
+ * UVA 10819: Trouble of 13-dots
  *
  */
 
