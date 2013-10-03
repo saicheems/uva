@@ -1,0 +1,9 @@
+UVA 11831
+Sticker collector robot
+
+Process
+This problem can be solved by searching the graph according to the rules. When
+you hit a '*', increment your count of stickers and set that cell to a '.' The
+only tricky part in this problem is correctly handling how you turn and move
+the robot. I used a bunch of arrays and indexed the directions to avoid huge if
+trees.
