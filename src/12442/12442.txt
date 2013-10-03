@@ -1,0 +1,8 @@
+UVA 12442
+Forwarding emails
+
+Process
+This problem can be solved by using dfs. Keep traversing until you hit a
+visited node - that means you have a cycle. Store the value you return (the
+length of the chain) in an array or vector so you don't calculate the same
+paths multiple times, otherwise you will get TLE.
