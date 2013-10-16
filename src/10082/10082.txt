@@ -1,0 +1,7 @@
+UVA 10082
+WERTYU
+
+Process
+I suspect there's a much more elegant solution to this problem, but I chose to
+remap the ascii set for the keys in question to the one immediately to their
+left. You will need to print newlines after each line of input read in.
