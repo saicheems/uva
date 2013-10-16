@@ -1,0 +1,7 @@
+UVA 299
+Train swapping
+
+Process
+This problem can be solved by writing a bubble sort. Run through the array and
+swap elements a and b (adjacent) when b is less than a. Keep a count of the
+total number of swaps made and print that - it will be the optimal solution.
