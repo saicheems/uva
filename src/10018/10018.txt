@@ -1,0 +1,8 @@
+UVA 10018
+Reverse and add
+
+Process
+Solving this problem is a matter of following the process outlined in the
+problem. It's a bit of a pain to reverse and convert strings, but we can use
+the C++ methods atol and sprintf to do what we need. I believe you'll need to
+use longs in this problem, as the palindrome can be as large as 4,294,967,295.
