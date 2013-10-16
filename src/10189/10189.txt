@@ -1,0 +1,10 @@
+UVA 10189
+Minesweeper
+
+Process
+We're given a grid with the mines labeled with a '*' and all other spaces with
+a '.' We want to output a grid with the non '*' spaces filled in with the
+number of '*'s adjacent. I solved it by copying the grid, changing all '.' to
+'0', looping through, and running my incr method when a '*' shows up. Then, I
+increment the count on all cells adjacent to the '*'. Note that you shouldn't
+print a newline after the last output.
