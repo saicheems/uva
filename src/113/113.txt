@@ -1,0 +1,8 @@
+UVA 113
+Power of cryptography
+
+Process
+I solved this problem using float math. If we take n to the 1 / p power, the
+result is k. Since we're guaranteed integer outputs, all we need to do is
+print the integer portion of the float. You will need to use doubles for all
+values in this problem to get AC.
