@@ -1,0 +1,7 @@
+UVA 10783
+Odd sum
+
+Process
+You can solve this one by running a for loop through all the odd numbers
+between a and b inclusive and summing them up. There's surely a more
+computationally efficient mathematical way - but this will work just fine.
