@@ -1,0 +1,9 @@
+UVA 591
+Box of bricks
+
+Process
+This problem can be solved easily by observing that the minimum number of
+blocks you must move is the number of blocks higher than the final stack
+height. Sum the total number of blocks and divide by the number of stacks to
+get the final stack height. Then iterate through the stacks and add the blocks
+above the final stack height.
