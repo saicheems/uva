@@ -1,0 +1,8 @@
+UVA 10696
+f91
+
+Process
+This problem can be solved with a basic recursive function. Just follow the
+conditions given. In fact, you don't need recursion...if the number is greater
+than or equal to 101, the output is N - 10, and if the function is less than or
+equal to 100 the output is 91.
