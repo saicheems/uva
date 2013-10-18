@@ -1,0 +1,11 @@
+UVA 101
+The blocks problem
+
+Process
+This problem is an exercise in tedium. Be sure to read the directions - if you
+follow them precisely you will get AC. Keep a vector of vectors and write
+methods for each operation. Be careful of removing elements in vectors, as
+using for loops to do so is tricky if you are iterating based on an original
+size. Be sure to skip cases where the elements are in the same column or a ==
+b. I wrote an O(N^2) method to find the column and row of an element - that
+should work fine.
