@@ -1,0 +1,7 @@
+UVA 10370
+Above average
+
+Process
+This problem can be solved by just following instructions. First calculate the
+average grade and then find the percentage of students above that average grade
+afterwards.
