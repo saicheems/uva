@@ -1,0 +1,12 @@
+UVA 10110
+Light, more light
+
+Process
+This problem is essentially asking you whether or not the number of factors in
+the input number is even. One way to go about it is to check all the values i
+below n and flip a flag if n is divisible by i. This approach will TLE. The
+correct approach to make the observation that numbers that are not perfect
+squares have an even number of factors. Perfect squares have an odd number of
+factors. For example, 4 has factors 1 2 and 4 (odd). 12 has factors 1 2 3 4 6
+12 (even). Therefore if n is a perfect square, output "yes". Otherwise output
+"no".
