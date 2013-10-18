@@ -1,0 +1,5 @@
+UVA 575
+Skew binary
+
+Process
+This problem is easily solved by just following instructions. 
