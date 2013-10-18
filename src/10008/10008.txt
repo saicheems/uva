@@ -1,0 +1,11 @@
+UVA 10008
+What's cryptanalysis?
+
+Process
+I solved this problem by using an array of pairs. I initialized each pair to
+have the character values between 0 and 255 to represent the entire character
+set. The second value in each pair begins at 0. For each character in each
+line, I checked to see that it was in the alphabet, and if so the integer in
+the corresponding capital letter pair would be incremented. After all the lines
+are read, I sort using a custom compare function and print the results of all
+characters where with at least one occurrence.
