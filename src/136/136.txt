@@ -1,0 +1,10 @@
+UVA 136
+Ugly numbers
+
+Process
+Because ugly numbers have only 2, 3 and 5 as prime factors, we can calculate
+them by taking multiples of ugly numbers and 2, 3 or 5. The easiest way to do
+this is to make a min heap (priority queue). Pull out the smallest number,
+check to see that it is greater than the current ugly number, and add the
+number times each of the 3 prime factors back into the queue. The 1500th number
+you pull out is the answer.
