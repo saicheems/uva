@@ -1,0 +1,5 @@
+UVA 488
+Triangle wave
+
+Process
+This is a simple problem. Just follow the instructions.
