@@ -1,0 +1,12 @@
+UVA 10004
+Bicoloring
+
+Process
+This one's a simple traversal and coloring problem. Maintain a adjacency list
+and add bidirectional edges. Also, keep a color vector with all nodes set to
+initial color 0. Set the color of node 0 to 1 and begin traversing. If you can
+travel to a node with color 1 or 2, and the current node has the same color,
+then the graph is not bicolorable. If the node you are traveling to is not
+colored, color it with the one opposite of the current node and traverse on it.
+Note you only have to traverse from one node as the graph is strongly
+connected.
