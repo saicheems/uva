@@ -1,0 +1,6 @@
+UVA 424
+Integer inquiry
+
+Process
+Easiest way to do this one is to shift to java and use the BigInteger class to
+do the large number arithmetic for us.
