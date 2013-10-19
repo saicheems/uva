@@ -1,0 +1,7 @@
+UVA 10041
+Vito's family
+
+Process
+You can solve this problem by first sorting the street number array and
+calculating the sum of the distances of the median element to all other
+elements. This will always provide the optimal value.
