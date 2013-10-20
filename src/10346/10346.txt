@@ -1,0 +1,10 @@
+Process
+I solved this problem by using a recursive approach. I kept track of the number
+of cigarettes as well as the number of leftover butts. We need to keep track of
+both because if there are n = 9 butts and k = 2 butts can be used to produce a
+new cigarette, we get 4 cigarettes and 1 leftover butt that can be used in the
+future. Consider the case n = 14 and k = 3. 14 cigarettes are smoked and 14
+butts remain. 12 can be rolled into 4 more cigarettes and 2 butts are left
+over. The 4 cigarettes are smoked so 6 butts remain. The 6 butts are then
+turned into 2 cigarettes and smoked. Therefore 20 cigarettes have been smoked
+in total.
