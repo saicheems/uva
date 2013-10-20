@@ -1,0 +1,5 @@
+Process
+I didn't see an immediately obvious way to do this in c++, factorials are messy
+and easily overflow. I decided to default to java and use BigInteger to run
+through this one. I'm going to come back to it another day, since my running
+time (0.949 s) is hardly fantastic.
