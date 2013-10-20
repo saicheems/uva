@@ -1,0 +1,4 @@
+Process
+There's a method to solving this problem (modular exponentiation, wikipedia
+it). As it happens, java's BigInteger class implements this method for us
+(modPow), so I went ahead and used that.
