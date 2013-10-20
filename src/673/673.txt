@@ -1,0 +1,7 @@
+Process
+I chose to solve this problem using a stack. If the current character in the
+string is a open parentheses/bracket, push it to the stack. If it isn't, look
+at the top element of the stack and check to see if it closes the current
+character. If it does, pop the element and continue. If it doesn't return
+false. After the loop, make sure you check to see that the size of the stack is
+0. If you don't, we will fail cases like '(' or '()('.
