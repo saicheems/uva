@@ -1,0 +1,7 @@
+Process
+To solve this problem, you can use the same method you might use to find
+whether or not a substring occurs within a string. Make a linear pass through
+the characters of the second string and manage an index variable for the
+substring (first string). For each character that matches, increment the index
+variable. If all the characters in the substring are seen in the order they
+appear, then output "Yes".
