@@ -1,0 +1,17 @@
+UVA 10079
+Pizza cutting
+
+Process
+To solve this one, you need to find a relationship between the number of cuts
+you're making and the number of slices made as a result.
+Cuts	Slices	Relationship
+0	1	1
+1	2	1 + 1
+2	4	2 + 2
+3	7	4 + 3
+4	11	7 + 4
+5	16	11 + 5
+As you can observe, the recurrence relation is a = n + (n - 1) where a is 1
+when n = 0. A recursive implementation can be written that will run in time.
+Alternatively, there is an O(1) solution. The function (n * (n + 1)) / 2 + 1 is
+the solved recurrence relation and will return the correct number of slices.
