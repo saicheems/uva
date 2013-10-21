@@ -1,0 +1,7 @@
+Process
+This is a really easy problem to solve. Basic algebra manipulation leads you to
+find that the two values are (s - d) / 2 and (s - d) / 2 + d. You will print
+impossible when s < d (this will result in a negative value) and when (s - d) /
+2 + (s - d) / 2 != s. You will find this is the case when s = 101 and d = 0. No
+two integers exist for the condition to be true, and since football scores are
+integers you will return "impossible".
