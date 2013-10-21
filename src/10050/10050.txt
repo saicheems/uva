@@ -1,0 +1,5 @@
+Process
+Solving this problem is a matter of keeping track of days, the day of the week,
+and each party's hartal index. Iterate through the days and add to the hartal
+count when at least one party has a hartal on a given index. Do not operate on
+days Friday and Saturday (when days % 7 != 0 && days % 7 != 6).
