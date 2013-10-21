@@ -1,0 +1,3 @@
+Process
+To solve this one, write a bubble sort and keep track of the total number of
+flips. Bubble sort will always return the minimal number of flips.

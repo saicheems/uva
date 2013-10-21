@@ -1,0 +1,10 @@
+Process
+This problem is a matter of writing methods to determine whether the input is a
+palindrome or a mirrored string or both. I used a map to hold the characters
+and their mirrored mappings because I think it's the least space intensive
+method. Note that for the mirrored string, you must compare each character with
+it's complement on the other half of the string. You will also have to compare
+the middle character (3rd character in a 5 letter string) against it's own
+mapping to make sure it mirrors. The palindrome method is easier - compare the
+left half of letters to the right half. The middle letter doesn't matter in
+this case.
