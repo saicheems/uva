@@ -1,0 +1,12 @@
+Process
+My original solution for this problem is poor. I'm not going to explain each
+line but the general idea. It should be apparent that the factors of a large
+factorial are the factors of all the numbers involved in the factorial. For
+example, the prime factorization of 5! is the prime factorizations of 2, 3, 4,
+and 5 multiplied. I used the sieve of eratosthenes to generate all the primes
+under a 100 and a prime factorization method to calculate the prime
+factorizations of each number. From there the problem is just extraneous code.
+It is possible to shorten this one by just providing the primes under 100
+yourself in an array and bypassing the sieve. I need a less messy method of
+determining what the final values to print should be - so I'll come back to
+this one in the future.
