@@ -1,0 +1,5 @@
+Process
+This problem can be solved easily by using the sieve of eratosthenes. Generate
+the primes under a million and store them in a map. For each n you read,
+iterate through the primes array until you find a prime such that (n - prime)
+is also a prime.
