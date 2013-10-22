@@ -1,0 +1,6 @@
+Process
+I chose to solve this problem by brute force. I checked all m starting from 1
+until an m that meets the condition is found. For my checking method, I used a
+vector and removed an element from the vector after each iteration. Basically I
+wrote a simulation to determine whether or not 13 was the final value after N
+passes.
