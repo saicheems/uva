@@ -1,0 +1,4 @@
+Process
+The basic problem itself can be solved by simulation. Follow the instructions
+to alter A if it is even or odd and stop when A = 1. Use a long long so you can
+detect when A increases beyond 2 ^ 32 - 1.
