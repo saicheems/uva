@@ -1,0 +1,5 @@
+Process
+If you look at binary addition without the carry operation you should notice
+that the result is the exclusive or operator. Two 1's become a 0, a 0 and a 1
+becomes a 1, and two 0's is a 0. Read in the two integers and output their
+exclusive or as a decimal.
