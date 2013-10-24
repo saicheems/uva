@@ -1,0 +1,8 @@
+Process
+We can use some basic math to analyze this one. If we change the value of a
+bit, the sum of its respective column and row will be changed by 1. As a
+result, by changing only one bit we can change only one column and row.
+Therefore, if the sums of more than one column or row is odd, the matrix is
+"Corrupt". If none are odd, the matrix is "OK", and if only one of each is odd
+- that row and column bit can be changed to give the matrix the parity
+property.
