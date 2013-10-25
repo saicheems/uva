@@ -1,0 +1,5 @@
+Process
+I solved this one with java (for easiness sake). The 5000th fibonacci number
+has an enormous number of digits - way too many for long long in c++.
+BigInteger is the best fall back, even if it is very slow. I'll have to see
+how this can be done in c in the future.
