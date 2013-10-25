@@ -1,0 +1,7 @@
+Process
+To solve this one, use the Needleman-Wunsch algorithm for sequence matching.
+Set the match score to 1, and all other scores to 0. Note that for this problem
+an input string can be empty. As a result, getline and cin will not work. You
+should use gets in order to read in properly.
+For a good reference on the Needleman-Wunsch algorithm, check this link:
+http://www.avatar.se/molbioinfo2001/dynprog/dynamic.html
