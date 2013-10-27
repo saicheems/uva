@@ -1,0 +1,5 @@
+Process
+This problem is asking you to print the number of bits set to 1 in M as well as
+the number of bits set to 1 in M if it were interpreted as a hex value. You can
+make a bit counter easily by shifting and using bitwise ampersand with 1. By
+using a string writing and reading trick, you can read in M as if it were hex.

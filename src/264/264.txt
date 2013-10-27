@@ -1,0 +1,6 @@
+Process
+I solved this one by first calculating which diagonal the desired index was in
+and at what position it was located. Based on which direction the values go in
+the diagonal (use diagonal mod 2), we can calculate the numerator and
+denominator. For reference to see how the chart works, check this link:
+http://www.homeschoolmath.net/teaching/rational-numbers-countable.php
