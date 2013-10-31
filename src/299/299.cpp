@@ -1,6 +1,6 @@
 /*
  * Sai Cheemalapati
- * UVA 299: Reverse and add
+ * UVA 299: Train swapping
  *
  */
 
