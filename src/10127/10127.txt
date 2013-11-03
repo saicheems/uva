@@ -1,0 +1,8 @@
+Process
+The immediately obvious solution to this problem is to try brute force.
+Generate the sequences of ones and try modulus n until we get 0. Unfortunately,
+we run into the limits of integers as the sequence becomes long. Instead, we
+can apply a modulus trick. We can operate on the remainder of the operation (*
+10 + 1) and continue until we end up with 0 mod. The following resource helped
+me understand:
+http://www.mathblog.dk/uva-10127-ones/
