@@ -1,0 +1,4 @@
+Process
+If you try mapping out the cuts needed for a few different size blocks of
+chocolate, it will become apparent that the relationship between M, N and the
+number of cuts is that the number of cuts = N * M - 1.

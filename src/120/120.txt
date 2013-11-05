@@ -1,0 +1,7 @@
+Process
+This problem is asking you to devise an algorithm to sort the flapjack stack
+sub-optimally (because there is no efficient optimal pancake sorter). The
+algorithm is as follows. Look for the largest element in the stack, flip it to
+the end, and then flip it to it's correct place at the bottom. There are two
+cases where the pancake is in the correct place and where the pancake is at the
+end of the stack you will have to deal with.
