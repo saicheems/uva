@@ -1,0 +1,5 @@
+Process
+Read in and save the strings in a vector/ArrayList. Starting from the last one,
+print the first character in each string and print a newline. Repeat with each
+subsequent character until you reach the end of the longest string. If you've
+already reached the end of one of the strings, print a space.

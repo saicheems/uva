@@ -1,0 +1,4 @@
+Process
+This one can be solved easily using the sieve of eratosthenes. Generate the
+primes up to 2 ^ 15 and mark them in a map. For all primes <= n / 2, see if n -
+prime is also a prime. If so, increment the count.
