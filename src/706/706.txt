@@ -1,0 +1,4 @@
+Process
+This one is a pain in the butt to code. I don't have any tips or tricks...I
+wrote a ton of for loops to print out the top, middle, and final rows, and two
+others to print out stuff in the middle.

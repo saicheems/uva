@@ -1,0 +1,20 @@
+Process
+To solve this one, we need to first properly map the correct order of events to
+1 ... N. For example:
+3 1 2 4 9 5 10 6 8 7
+| | | | | | |  | | |
+1 2 3 4 5 6 7  8 9 10
+
+-> 2 3 1 4 6 8 10 9 5 7
+
+Then we map the student rankings to 1 ... N:
+2 10 1 3 8 4 9 5 7 6
+| |  | | | | | | | |
+1 2  3 4 5 6 7 8 9 10
+
+-> 3 1 4 6 8 10 9 5 7 2
+
+Looking at these two sequences, we can see that the longest common subsequence
+(Needleman-Wunsch algorithm), 3 1 4 6 8 10 9 5 7, has length 9. All we need to
+do is output the length of the longest common subsequence between the correct
+rank mapping and the student rank mapping.
