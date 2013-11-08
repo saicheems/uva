@@ -1,0 +1,12 @@
+Process
+This problem is essentially asking us to calculate n choose k (google binomial
+coefficient). The formula is n!/(k!*(n-k)!). Our issue is that while the final
+result is guaranteed to be within the bounds of an integer, the individual
+factorials are not. So, we must cut out some multiplications. Immediately we
+can remove a good amount of multiplications by observing that some terms on the
+top and bottom will be eliminated due to the factorial. We can start
+calculating the numerator from max(a - b, b) + 1 to a. To prevent us from going
+over the int limit though, as we calculate the numerator we must divide by
+terms in the denominator. In my solution I have an outer for loop calculating
+the numerator and an inner for loop dividing by terms in the denominator while
+possible.
