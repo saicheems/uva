@@ -1,0 +1,6 @@
+Process
+The fastest solution I can think of is to manually map each character to
+another in a 256 entry char array. I coded for speed this time though, so I
+made a keyboard string and mapping string. I scanned through the keyboard
+string for each character of the input and printed out its corresponding
+mapping. At the end be sure to print an end line.

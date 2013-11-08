@@ -1,0 +1,5 @@
+Process
+Follow the directions - it's asking you for a sum of 1^3 + 2^3 + 3^3 + ... +
+n^3. Interestingly there is a one line summation formula for the polynomial
+expansion. Just plugging n into (n^2 * (n + 1)^2)/4 will give you the correct
+answer as well.
