@@ -1,0 +1,4 @@
+Process
+It's easy to solve this one by following directions. You want to store the
+rectangles, iterate through each given point, and check to see that the x and y
+coordinates are within the bounds of each rectangle.
