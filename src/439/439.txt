@@ -1,0 +1,6 @@
+Process
+We can solve this one with bfs. From the given start point, we search all
+possible knight moves until we hit the correct tile. To get the length of the
+path, we can store best lengths (because we are using a bfs) in a matrix and
+update as we go. The length at the starting point should be 0, and the length
+at each cell to be explored should be the length from the current cell + 1.

@@ -1,0 +1,4 @@
+Process
+We can solve this one by following the directions and recursively summing
+digits. There is a pattern here that we can see by trying many different values
+however. You may notice that the answer is also simply n % 9.

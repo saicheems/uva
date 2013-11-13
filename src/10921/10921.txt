@@ -1,0 +1,5 @@
+Process
+The fastest way to do this one is to map each character to its corresponding
+number in an array or map structure. For coding speed however, I chose to write
+out an original and mapped array and scan through them to find the correct
+mapping letter.

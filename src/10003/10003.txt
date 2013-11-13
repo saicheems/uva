@@ -1,0 +1,5 @@
+Process
+This problem should be solved by a complete search. You may notice however that
+there are overlapping subproblems here. It is likely that we will need to
+calculate the cost of the same cut multiple times. It is useful then to store
+values in a dp table and return them if the calculation was already done.

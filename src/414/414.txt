@@ -1,0 +1,7 @@
+Process
+I solved this one by iterating through the strings and determining the index of
+the first and last B (stored in start[i] and end[i] respectively). With these
+index values, we can determine the number of blocks in the middle that can be
+removed (the minimum of the difference between end[i] and start[i] for all i).
+From there, we can calculate the number of leftover spaces by simple math - the
+sum of the differences between end[i] - min_difference - start[i].
