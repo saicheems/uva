@@ -1,0 +1,13 @@
+121 is a multiple of 11.
+11 is a multiple of 11.
+22 is a multiple of 11.
+33 is a multiple of 11.
+44 is a multiple of 11.
+55 is a multiple of 11.
+66 is a multiple of 11.
+112233 is a multiple of 11.
+30800 is a multiple of 11.
+2937 is a multiple of 11.
+323455693 is a multiple of 11.
+5038297 is a multiple of 11.
+112234 is not a multiple of 11.
