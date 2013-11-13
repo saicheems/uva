@@ -1,0 +1,7 @@
+Process
+We can solve this problem in c++ using some modular arithmetic. Keep a running
+modulus, and for each digit in the number, add the current digit (to the
+running mod), multiply by 10, and mod by 11. After performing the operation for
+all digits, if the original number is divisible by 11, your running mod will be
+0.  You'll have to check if the value read in is 0 and that its length is 1 if
+you're using c strings. I think they might be giving inputs such as 00111.
