@@ -1,0 +1,11 @@
+Process
+This problem is actually pretty tricky in my opinion. You need to calculate the
+amount of money exchanged to equalize the costs provided. For example, given
+$10.00, $20.00 and $30.00, the first student would give $10.00 to the third
+student so all three pay $20.00. Therefore the answer for this example is
+$10.00. The challenge is when we have tricky cent values which give us rounding
+issues. My procedure was to first calculate the overall average cost. For each
+student, I subtracted the amount they paid from the average and cut it off at
+the cent using casting. You need to keep track of two values - one for positive
+differences and negative differences. At the end, print the greater of the two
+differences.
