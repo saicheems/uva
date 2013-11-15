@@ -1,0 +1,8 @@
+Process
+First use the sieve of Eratosthenes to generate all primes under 1000. Use
+binary search to find the first prime greater than or equal to N, and decrement
+the index until the prime is less than or equal to N. From here, we look at the
+size of the prime list to determine the number of elements we should print out.
+After calculating these, calculate the start and end indices. If the size of
+the center list is equal to or exceeds the size of the total list, print all
+primes from 1 to N.
