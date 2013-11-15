@@ -1,0 +1,8 @@
+Process
+Not really any tricks to this problem. I used a long long to be on the safe
+side, but I don't think it's actually needed after some quick checks on my
+calculator. To get the digit in the tens column of a number, you can divide by
+10 and use mod 10.
+For example, to get the tens digit of 257:
+257 / 10 = 25
+25 % 10 = 5.
