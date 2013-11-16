@@ -1,0 +1,15 @@
+Process
+This one is a pretty interesting math problem. We need to find the number
+within the range from L to U with the largest number of divisors. I chose to do
+this using a prime factorization algorithm along with the sieve of
+Eratosthenes. The process is as follows:
+1. Generate all primes up to 35,000 (the number with the largest prime factors
+under a billion is 31627 * 31607.
+2. Use a prime factorization algorithm to determine the factors and
+multiplicity of a number. We can determine the number of total factors from the
+number of prime factors by taking the multiplicities of each factor (a, b,
+c...) and multiplying them as (a + 1)(b + 1)(c + 1)...
+You can check this reasoning here:
+http://mathschallenge.net/library/number/number_of_divisors
+3. For all values in the range, calculate the total number of factors for each
+number and store the one with the largest number.
