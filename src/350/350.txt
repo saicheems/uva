@@ -1,0 +1,4 @@
+Process
+We're being asked to find the length of a cycle in this problem. All you have
+to do is keep track of what values you've seen in an array and exit once you've
+seen the same value again.
