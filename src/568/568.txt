@@ -1,0 +1,6 @@
+Process
+We can solve this one using modular arithmetic. We need to find the first
+non-zero digit, so we divide our current value by 10 while the ones digit is 0.
+Instead of modding by 10 after multiplying by the next value in the factorial,
+we mod by 10 * 10000, because 10000 is our largest value and we do not want a
+loss of precision in the first non-zero digit.
