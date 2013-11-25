@@ -1,0 +1,9 @@
+Process
+I used a few tricks for this one. First, I kept 3 arrays that indicated the
+number of times the roman numerals i, v, and x appeared from 0 to 9. Then I
+kept 3 more arrays that indicated the number of times the roman numerals x, l,
+and c appeared in the tens and hundreds digits from 0 to 100 (going by steps of
+10). From here we can do some addition to calculate totals. The number of times
+each letter appears has a direct relationship to the number of times it appears
+in the tens digit and the ones digit. You can verify this relationship yourself
+by checking a list of roman numerals online.
