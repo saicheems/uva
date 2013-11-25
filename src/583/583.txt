@@ -1,0 +1,6 @@
+Process
+First, we use the sieve of Eratosthenes to calculate all the primes under
+50000.  Then, we can use a smart prime factorization algorithm to return a
+vector of all the prime factors of a number n. Note that the numbers 1 and -1
+are not given, so you do not need to account for them. If you get a negative
+number, you can deal with it at output like me or within your factorizer.
