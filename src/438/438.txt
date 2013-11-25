@@ -1,0 +1,18 @@
+Process
+In order to calculate the circumference of our circle, we first need to know
+the radius. Given a triangle, you can observe that by drawing perpendicular
+lines from the midpoint of the three line segments, the three lines formed will
+all intersect the radius of the circle. Therefore, we can do some math by
+calculating two lines perpendicular to the bisection of the segments and
+calculating their intersection.
+First you need to find the midpoints of the line segments. Note that if two
+points have the same y coordinate, the slope of the line perpendicular to their
+midpoint will be inf. I chose to skip such segments and operate on the other
+two - it is up to you how you want to deal with that scenario.
+Midpoints are given by (x1 + x2) / 2 and (y1 + y2) / 2.
+You can calculate the slope of the perpendicular line as (y1 - y2) / (x1 - x2).
+Then the perpendicular lines going through the midpoints of the segments are
+given by:
+(y - y1) + m * (x - x1) = 0
+From here you can do some algebra to calculate the radius point. Finally
+circumference is 2 * pi * r.
