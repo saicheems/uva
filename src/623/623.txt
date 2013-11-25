@@ -1,0 +1,5 @@
+Process
+Easiest way to do it is to use Java's BigInteger class. There's a way to do
+these large factorial problems in C that I'll have to look up sometime though.
+I think what others are doing is using a string to hold the digits and manually
+multiplying.
