@@ -1,0 +1,12 @@
+Process
+This problem took some time for me due to unclear instructions. I recommend
+using getchar to read the input character by character for your logic. Skip
+non-alphabetic characters and apply the rules for Pig-Latin. The trick here is
+that words that are not followed by a non-alphabetic character do not have "ay"
+appended to them.
+For example, for the input:
+hello
+hello.
+The output is:
+ello
+ellohay.

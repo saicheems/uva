@@ -1,0 +1,12 @@
+This is the input.
+a b c d e f g .      asdf apple
+I hope this sentence is properly translated into pig latin.
+1 2 3 4 abc easy as 123.
+hello
+hello my friend
+hello.
+hello my friend.
+ello
+ello my friend
+ello.
+ello my friend.
