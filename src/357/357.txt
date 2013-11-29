@@ -1,0 +1,4 @@
+Process
+This problem is classic DP. Iterate through the coin denominations and fill
+each cent value as ways[j] += ways[j - coins[i]]. You can validate this on
+paper.
