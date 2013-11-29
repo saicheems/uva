@@ -1,0 +1,5 @@
+Process
+I solved this problem by sorting the individual strings first and matching
+their equivalent characters. You can take a look at my logic if this does not
+make sense. You will need to watch out for empty strings as input - in which
+case you will output a newline.
