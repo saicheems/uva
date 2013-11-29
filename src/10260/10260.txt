@@ -1,0 +1,3 @@
+Process
+This is a "follow the instructions" problem. Take a look at the logic below if
+you are confused as to how to solve it.
