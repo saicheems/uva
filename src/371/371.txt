@@ -1,0 +1,9 @@
+Process
+The basics of the problem require that you follow the directions. I made a
+recursive function (non-recursive would be better though) that acts on the
+rules. If you look at the sample patterns provided, there is a lot of
+repetition in the sequence we calculate. As a result, the problem benefits from
+memoization. Store the result of each call and return it in the future if we've
+already computed it. Note also that the test input will give L and H backwards
+as well. You need to swap these values if they come in the wrong order in your
+program.

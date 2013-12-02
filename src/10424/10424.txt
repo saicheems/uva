@@ -1,0 +1,6 @@
+Process
+For this problem, you'll need to sum the values of the alphabetic characters in
+each string and run the sum through a method that returns the sum of the digits
+until you're left with a single digit. The ratio is determined by taking a / b
+or b / a (whichever is less than or equal to 100%). Note that you'll probably
+want to use getline - I think the input data may include blank lines.

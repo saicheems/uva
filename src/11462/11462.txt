@@ -1,0 +1,5 @@
+Process
+This problem is just asking you to sort the input values. All you have to do is
+call the standard sort function. I decided to use a silly priority queue
+solution because I don't get to use it very often. Just calling sort would have
+been much quicker to code however.

@@ -1,0 +1,5 @@
+Process
+Because we're dealing with factorials, I chose to use BigInteger in java and
+take tallies of each digit by iterating through a string. There are faster ways
+of doing this by manually multiplying using arrays in c++, but I believe this
+method takes less time to code.
