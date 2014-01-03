@@ -1,0 +1,6 @@
+Process
+This one is pretty simple if you use the sieve of Eratosthenes to precalculate
+primes. I read in the numbers as strings, reversed them, and parsed them to get
+both n and m. From there it's a simple check against your prime list. Note that
+for a number to be 'Emirp', n and its reversed value m must be *different*.
+Therefore check to see that n != m.

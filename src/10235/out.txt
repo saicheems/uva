@@ -1,0 +1,10 @@
+2 is prime.
+3 is prime.
+4 is not prime.
+5 is prime.
+17 is emirp.
+18 is not prime.
+19 is prime.
+179 is emirp.
+199 is emirp.
+999999 is not prime.
