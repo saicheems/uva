@@ -1,0 +1,8 @@
+Process
+I messed up a bit because I didn't read the directions carefully. I
+assumed that this problem was a straightforward BFS. It actually isn't - from
+any cell, you need only search in *a straight line*. This means you only have
+to check horizontally, vertically, and diagonally from a cell. The method then
+is to start at some cell, check all 8 possible directions to see if there is a
+match for the word (note that case does not matter), and print the row and
+column of the starting cell if so.

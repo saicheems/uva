@@ -1,0 +1,30 @@
+3
+
+8 11
+abcDEFGhigg
+hEbkWalDork
+FtyAwaldORm
+FtsimrLqsrc
+byoArBeDeyv
+Klcbqwikomk
+strEBGadhrb
+yUiqlxcnBjf
+4
+Waldorf
+Bambi
+Betty
+Dagbert
+
+5 5
+bbbbb
+baabb
+baabb
+bbbbb
+bbbbb
+1
+aa
+
+1 1
+a
+1
+a
