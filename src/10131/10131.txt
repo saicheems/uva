@@ -1,0 +1,9 @@
+Process
+To solve this one, first observe that we can sort a single column (I chose to
+sort the IQ values) and run the longest increasing subsequence algorithm on the
+other.  You'll need to make a small modification to check for the case where
+there are equivalent IQ values but differing weights (or vice versa). Note that
+in the problem statement the inequalities are *strict*. Therefore within your
+LIS algorithm, you need to check that the next weight in the sequence is
+greater than the previous weight, and the next IQ is less than the previous
+one.
