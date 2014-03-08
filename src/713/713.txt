@@ -1,0 +1,7 @@
+Process
+I used Java to solve this one. String reversal and large number addition are
+just easier with BigInteger and StringBuilder classes. Since numbers can be as
+long as 200 characters, standard data types won't cut it. I read in each number
+as a String, used StringBuilder to reverse it, added them with BigInteger, and
+reversed the sum again using StringBuilder. I had an extra routine at the end
+to remove leading 0s.
