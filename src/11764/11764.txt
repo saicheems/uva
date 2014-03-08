@@ -1,0 +1,5 @@
+Process
+This problem is pretty simple. Follow the directions. Keep track of a high and
+low jump variable. Increment high when the next platform is taller than the
+current one. Increment low when the next platform is lower than the current
+one.
