@@ -1,0 +1,6 @@
+Process
+This problem is relatively straightforward. You need to store each figure in an
+array (I used an array of structs for simplicity) and check if any point is
+contained within them in order. For the rectangle, check if the point is within
+bounds. For the circle, check if the euclidian distance from the center of the
+circle to the point is <= r (radius).
