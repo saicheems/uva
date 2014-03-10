@@ -9,7 +9,7 @@
 
 int index(char* name, char names[10][16]) {
     int i = 0;
-    while(strcmp(name, names[i]) != 0)
+    while (strcmp(name, names[i]) != 0)
         i++;
 
     return i;
