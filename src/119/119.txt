@@ -1,0 +1,20 @@
+Process
+This problem is both simple and tricky. For each person, we are calculating NET
+gain - it's important to remember that. First, for each person, if they are
+giving money to one or more people, we decrement their net gain by the amount
+they're giving away. Then, we add back the amount they don't give away (use mod
+division). For each person we're giving money to, increment their net worth by
+(gift amount / number of giftees). If a person is giving no money to anyone
+(the trick case), they have NO NET GAIN, so we do not increment or decrement
+their worth for that iteration.
+For example, for input:
+3
+dave laura owen
+dave 200 0
+laura 100 0
+owen 100 0
+
+Output is:
+dave 0
+laura 0
+owen 0
