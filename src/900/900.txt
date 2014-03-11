@@ -1,0 +1,11 @@
+Process
+The problem becomes simple if we can observe a pattern.
+Here are the possible configurations for n bricks.
+1:  |                                               1 configuration
+2:  ||, =                                           2 configurations
+3:  ||, |=, =|                                      3 configurations
+4:  ||||, ||=, |=|, ||=, ==                         5 configurations
+5:  |||||, |||=, ||=|, |=||, =|||, |==, =|=, ==|    8 configurations
+
+We can start to see a famous pattern emerging - the fibonacci sequence!
+The solution is as simple as coding a fibonacci generator for i up to 50.

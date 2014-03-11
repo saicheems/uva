@@ -1,0 +1,6 @@
+Process
+The problem is super easy if you use Java. Use the Long.toString method which
+will convert bases for you. Granted, this method is slower than solving
+mathematically, but most likely a lot faster to code. Note that input is
+concluded by any negative number, not just -1 (this tricked me the first
+time...).
