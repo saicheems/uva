@@ -1,0 +1,6 @@
+Process
+This problem is simple if we use bit operations. Use a long long because our
+number can stretch to 2^64. We can keep bit-shifting our number to the right
+and increment P if the rightmost bit is a 1. We stop iterating once the
+leftover value is 0. I created the binary representation by adding the
+rightmost bit to a vector and printing it backwards.

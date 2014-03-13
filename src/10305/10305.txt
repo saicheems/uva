@@ -1,0 +1,6 @@
+Process
+This problem is asking you to write a topological sort. The procedure is to
+iterate over each node in the graph and run a DFS on each one. Mark each
+visited node as seen, and then add them to the front of an output list (now
+that I write this, it would be more efficient to write to the back and print
+the list in reverse).
