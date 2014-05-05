@@ -1,0 +1,3 @@
+The problem can be solved using the longest common subsequence dynamic
+programming algorithm. It's a very straightforward application of that
+algorithm. Make sure you include a trailing newline after all outputs.
