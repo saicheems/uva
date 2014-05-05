@@ -1,0 +1,3 @@
+This problem can be solved with a straightforward application of a minimum
+spanning tree algorithm. For fun and practice I decided to implement Kruskal's
+algorithm using a union find data structure.
