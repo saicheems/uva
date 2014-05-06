@@ -1,0 +1,12 @@
+First of all, this is an incredibly bad problem. The trick is based on
+incorrect math. The only reason I even found out how to solve it is by checking
+the UVa forums for a tip (only did so because I was frustrated...). The premise
+is straightforward - find what range of factorials is within 10000 and
+6227020800. That calculation can be done very easily. There's some flawed logic
+regarding negative inputs however. I assumed there would be no negative inputs
+because negative factorials are undefined. Of course, the factorial of 0 (0 /
+0) is undefined. The problem assumes this value to be infinity! As a result, an
+even factorial is an underflow, and an odd factorial is an overflow.
+Mathematically, this is blatantly wrong, so I think this is a poor problem
+altogether. You can see what the idea behind the logic is here:
+http://www.algorithmist.com/index.php/UVa_10323
