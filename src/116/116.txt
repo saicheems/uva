@@ -1,0 +1,6 @@
+I had more issues with this problem than I should have... mostly stemming from
+a poor reading of the instructions. Note that the path can start and end in any
+row - not just the first and last respectively. I used a recursive DP approach
+with memoization. The relation is that the best cost path from one cell is the
+value of the current cell + the minimum cost to all adjacent cells. Make sure
+you update so you pull the lexicographically smallest path.
