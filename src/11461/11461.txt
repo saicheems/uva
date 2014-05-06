@@ -1,0 +1,6 @@
+This problem can be solved with a simple search through an array of
+preprocessed squares. First generate the squares <= 100000 and then use some
+method to find the first index >= a and the first index > b. I used a basic
+linear search because the input size was so small... but if you want to solve
+it a bit faster you could write your own binary search method or use the
+standard library binary search methods (lower_bound, upper_bound).
