@@ -1,0 +1,32 @@
+This is a very simple problem once you deduce the pattern. First I wrote a
+simple method to sum up the total number of bottles you can enjoy. Note that it
+does not include empty bottles from the total as these cannot be enjoyed (no
+soda!). The key idea is that any even number of full bottles produces 2
+leftover bottles, and any odd number of full bottles produces a single leftover
+bottle. Thus, if N is even, we can borrow 2 empty bottles and have 2 leftover
+bottles to give back. If N is odd, we can borrow at most one (if we borrow two
+we will have only one bottle left). Borrowing a bottle if N is odd makes no
+difference however - the total sum ends up being the same. Here are some
+examples of the process:
+
+(b represents a full bottle, e an empty one)
+Given ten bottles:
+b b b | b b b | b b b | b
+b b b | e
+b e <- total is 10 + 3 + 1 = 14
+
+If we borrow two empty bottles:
+b b b | b b b | b b b | b e e
+b b b | b
+b e <- total is 10 + 4 + 1 = 15, we have enough to give back
+
+Given eleven bottles:
+b b b | b b b | b b b | b b
+b b b | e e
+b e e
+b <- total is 11 + 3 + 1 + 1 = 16
+
+If we borrow an empty bottle:
+b b b | b b b | b b b | b b e
+b b b | b
+b | e <- total is 11 + 4 + 1 = 16
