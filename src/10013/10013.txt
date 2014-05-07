@@ -1,0 +1,7 @@
+This problem threw me for a loop at first. I saw the million digit requirement
+and I immediately wrote a short solution in Java using BigInteger. After
+submission it seems BigInteger is too slow for this problem... So I took a step
+back and wrote it in C++. My solution stores the sum of the two integers at
+each line into an array. I then work backwards from the end of the array and do
+carry operations. I stop right before the first digit so it can exceed 9 and
+handle cases like 999 + 1.
