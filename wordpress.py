@@ -4,11 +4,11 @@ import os
 import sys
 
 if len(sys.argv) != 2:
-  print 'Requires one argument - an used UVa problem number.'
+  print 'Requires one argument - an used UVa problem number. Exiting...'
   sys.exit(0)
 
 if not sys.argv[1].isdigit():
-  print 'Argument must be a positive integer.'
+  print 'Argument must be a positive integer. Exiting...'
   sys.exit(0)
 
 if not os.path.exists('src/' + sys.argv[1]):

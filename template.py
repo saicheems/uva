@@ -4,15 +4,15 @@ import os
 import sys
 
 if len(sys.argv) != 3:
-  print 'Requires two argument - an unused UVa problem number and a language (java or cpp).'
+  print 'Requires two arguments - an unused UVa problem number and a language (java or cpp). Exiting...'
   sys.exit(0)
 
 if not sys.argv[1].isdigit():
-  print 'First argument must be a positive integer.'
+  print 'First argument must be a positive integer. Exiting...'
   sys.exit(0)
 
 if sys.argv[1] is not 'java' and not 'cpp':
-  print 'Second argument must be either java or cpp.'
+  print 'Second argument must be either java or cpp. Exiting...'
   sys.exit(0)
 
 if os.path.exists('src/' + sys.argv[1]):
