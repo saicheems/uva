@@ -1,0 +1,4 @@
+This problem can be solved using simple simulation - write a method that
+calculates the number of bad people killed before the first good person is
+killed. Then we can use a double for loop to generate the solutions (number of
+people killed == k) for k = 1 to 14.
