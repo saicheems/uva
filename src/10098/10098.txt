@@ -1,0 +1,2 @@
+This problem is really easy if you use the next_permutation method in C++ STL.
+Remember to sort first and print a newline after each test case.
