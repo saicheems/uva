@@ -16,18 +16,15 @@ if not os.path.exists('src/' + sys.argv[1]):
   sys.exit(0)
 
 srcCppName = 'src/' + sys.argv[1] + '/' + sys.argv[1] + '.cpp'
-srcJavaName = 'src/Main.java'
-srcFile = None
-
-# If the file is a cpp file, isCpp should be set to true.
-isCpp = False
+srcJavaName = 'src/' + sys.argv[1] + '/' + 'Main.java'
+srcCppFile = None
+srcJavaFile = None
 
 if os.path.exists(srcCppName):
-  srcFile = open(srcCppName, 'r')
-  isCpp = True
-elif os.path.exists(srcJavaName):
-  srcFile = open(srcJavaName, 'r')
-else:
+  srcCppFile = open(srcCppName, 'r')
+if os.path.exists(srcJavaName):
+  srcJavaFile = open(srcJavaName, 'r')
+if srcCppFile is None and srcJavaFile is None:
   print 'Expected source file not found. Exiting...'
   sys.exit(0)
 
@@ -52,8 +49,12 @@ inFile = open(inName, 'r')
 outFile = open(outName, 'r')
 
 print ' '.join([line.rstrip('\n') for line in desFile])
-print '[code language=' + ('cpp' if isCpp else 'java') + ']'
-print srcFile.read() + '[/code]'
+if srcCppFile is not None:
+  print '[code language=cpp]'
+  print srcCppFile.read() + '[/code]'
+if srcJavaFile is not None:
+  print '[code language=java]'
+  print srcJavaFile.read() + '[/code]'
 print '[code title="input"]'
 print inFile.read() + '[/code]'
 print '[code title="output"]'

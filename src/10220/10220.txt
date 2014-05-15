@@ -1,0 +1,9 @@
+When I first see big number problems, I try to turn to Java first because in
+it's usually faster to code and easier to use the BigInteger class than
+manually creating a large number adding system in C. This time was no
+different, I first coded a solution in Java in a few minutes, but I was
+unsatisfied with the runtime (about 1 second). For the sake of practice, I
+started again in C++ and wrote a small loop that performs the basic elementary
+school multiplication algorithm. It should be apparent how it works if you look
+at it. In C++ the runtime is a magnitude better... I think I could definitely
+clean up both solutions and reduce the runtime a good bit more.
