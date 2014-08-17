@@ -1,0 +1,4 @@
+This problem should be pretty simple to figure out. Essentially we want to count power of 2s until
+we can't anymore. My solution was to bit shift the input left until I hit 0. It should be apparent
+that this would work - you can verify with an example on paper that checking increasing powers of
+two will yield the optimal number of copy-pastes.
