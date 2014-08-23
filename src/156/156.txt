@@ -1,0 +1,8 @@
+This problem is pretty simple if you think about it a bit. My first solution was rather convoluted -
+I wanted to store each string in an array and do some kind of N^2 pass to find all ananagrams. I
+realized after trying to code it that a set or map might come in handy. My solution was to lowercase
+and sort all incoming strings and store them in a map with counts. Each of the original strings were
+stored in their own separate vector of all strings. By sorting the vector of original strings and
+doing a linear pass, you can check if the lowercase and sorted key has appeared more than once in
+the stream. If not, then print it out. For input reading, I think it's easiest to just use cin and
+strings.
